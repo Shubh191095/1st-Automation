@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="4" name="ChromeDriverTest"> 
+  <parameter name="browserName" value="chrome"></parameter>
+  <!--Browser change krach asnar tr only value ch anme change kravi lagnar-->
+    <classes>
+      <class name="com.SauceDemo.TestClasses.TC01LoginFunctionality"/>
+       <class name="com.SauceDemo.TestClasses.TC02LogoutFunctionality"/>
+      <class name="com.SauceDemo.TestClasses.TC03SingleProductAddToCartFunctionality"/>
+      <class name="com.SauceDemo.TestClasses.TC04MultipleProductAddToCartFunctionality"/>
+     </classes> 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-07T11:43:01 IST" name="Suite" finished-at="2023-12-07T11:43:30 IST" duration-ms="29477">
+    <groups>
+    </groups>
+    <test started-at="2023-12-07T11:43:01 IST" name="ChromeDriverTest" finished-at="2023-12-07T11:43:30 IST" duration-ms="29477">
+      <class name="com.SauceDemo.TestClasses.TC01LoginFunctionality">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SauceDemo.TestClasses.TC01LoginFunctionality@46cdf8bd]" started-at="2023-12-07T11:43:01 IST" name="setUp" finished-at="2023-12-07T11:43:07 IST" duration-ms="6782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFunctionalityTest()[pri:0, instance:com.SauceDemo.TestClasses.TC01LoginFunctionality@46cdf8bd]" started-at="2023-12-07T11:43:07 IST" name="loginFunctionalityTest" finished-at="2023-12-07T11:43:08 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionalityTest -->
+        <test-method is-config="true" signature="tesrDown()[pri:0, instance:com.SauceDemo.TestClasses.TC01LoginFunctionality@46cdf8bd]" started-at="2023-12-07T11:43:08 IST" name="tesrDown" finished-at="2023-12-07T11:43:08 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesrDown -->
+      </class> <!-- com.SauceDemo.TestClasses.TC01LoginFunctionality -->
+      <class name="com.SauceDemo.TestClasses.TC03SingleProductAddToCartFunctionality">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SauceDemo.TestClasses.TC03SingleProductAddToCartFunctionality@33065d67]" started-at="2023-12-07T11:43:18 IST" name="setUp" finished-at="2023-12-07T11:43:23 IST" duration-ms="5160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SingleProductAddToCartFunctionality()[pri:0, instance:com.SauceDemo.TestClasses.TC03SingleProductAddToCartFunctionality@33065d67]" started-at="2023-12-07T11:43:23 IST" name="SingleProductAddToCartFunctionality" finished-at="2023-12-07T11:43:24 IST" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingleProductAddToCartFunctionality -->
+        <test-method is-config="true" signature="tesrDown()[pri:0, instance:com.SauceDemo.TestClasses.TC03SingleProductAddToCartFunctionality@33065d67]" started-at="2023-12-07T11:43:24 IST" name="tesrDown" finished-at="2023-12-07T11:43:24 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesrDown -->
+      </class> <!-- com.SauceDemo.TestClasses.TC03SingleProductAddToCartFunctionality -->
+      <class name="com.SauceDemo.TestClasses.TC04MultipleProductAddToCartFunctionality">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SauceDemo.TestClasses.TC04MultipleProductAddToCartFunctionality@712625fd]" started-at="2023-12-07T11:43:24 IST" name="setUp" finished-at="2023-12-07T11:43:29 IST" duration-ms="5243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="MultipleProductAddToCartFunctionality()[pri:0, instance:com.SauceDemo.TestClasses.TC04MultipleProductAddToCartFunctionality@712625fd]" started-at="2023-12-07T11:43:29 IST" name="MultipleProductAddToCartFunctionality" finished-at="2023-12-07T11:43:30 IST" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultipleProductAddToCartFunctionality -->
+        <test-method is-config="true" signature="tesrDown()[pri:0, instance:com.SauceDemo.TestClasses.TC04MultipleProductAddToCartFunctionality@712625fd]" started-at="2023-12-07T11:43:30 IST" name="tesrDown" finished-at="2023-12-07T11:43:30 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesrDown -->
+      </class> <!-- com.SauceDemo.TestClasses.TC04MultipleProductAddToCartFunctionality -->
+      <class name="com.SauceDemo.TestClasses.TC02LogoutFunctionality">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SauceDemo.TestClasses.TC02LogoutFunctionality@cb0755b]" started-at="2023-12-07T11:43:08 IST" name="setUp" finished-at="2023-12-07T11:43:13 IST" duration-ms="5143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LogoutFunctionality()[pri:0, instance:com.SauceDemo.TestClasses.TC02LogoutFunctionality@cb0755b]" started-at="2023-12-07T11:43:13 IST" name="LogoutFunctionality" finished-at="2023-12-07T11:43:17 IST" duration-ms="4188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFunctionality -->
+        <test-method is-config="true" signature="tesrDown()[pri:0, instance:com.SauceDemo.TestClasses.TC02LogoutFunctionality@cb0755b]" started-at="2023-12-07T11:43:17 IST" name="tesrDown" finished-at="2023-12-07T11:43:18 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesrDown -->
+      </class> <!-- com.SauceDemo.TestClasses.TC02LogoutFunctionality -->
+    </test> <!-- ChromeDriverTest -->
+  </suite> <!-- Suite -->
+</testng-results>
